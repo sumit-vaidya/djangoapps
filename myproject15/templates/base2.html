@@ -1,0 +1,16 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/sample1.css' %}">
+    </head>
+    <body>
+        <h2>
+            PRODUCT ID : {{ id }}<br>
+            PRODUCT NAME : {{ name }}<br>
+            PRODUCT PRICE : {{ price }}<br>
+            PRODUCT BRAND : {{ brand }}<br>
+            PRODUCT QTY : {{ qty }}
+        </h2>
+        <img src="{% static 'images/mobile.jpg' %}" alt="">
+    </body>
+</html>
