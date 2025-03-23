@@ -1,0 +1,23 @@
+.jumbotron{
+    margin-top: 50px;
+    background: transparent;
+    color: yellow;
+}
+body{
+    background : url(https://images.unsplash.com/photo-1498644035638-2c3357894b10?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+}
+h1{
+    text-align: center;
+    background: red;
+}
+ul{
+    font-size: 30px;
+}
+img{
+    width: 25%;
+    height: 200px;
+    border: 10px solid yellow;
+}

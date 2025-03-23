@@ -21,4 +21,7 @@ from NewsApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^newsapp$', views.input),
+    re_path(r'^politics$', views.political_news_view),
+    re_path(r'^sports$', views.sports_news_view),
+    re_path(r'^movies$', views.movies_news_view),
 ]
