@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <h1>Employees Information</h1>
+        {% if emps %}
+        <table border="10">
+            <thead>
+                <th>EmpNo</th>
+                <th>EmpName</th>
+                <th>EmpSal</th>
+                <th>EmpSex</th>
+                <th>EmpDno</th>
+            </thead>
+            {% for p in emps %}
+                <tr>
+                    <td>{{p.eno}}</td>
+                    <td>{{p.ename}}</td>
+                    <td>{{p.sal}}</td>
+                    <td>{{p.sex}}</td>
+                    <td>{{p.dno}}</td>
+                </tr>
+            {% endfor%}
+        </table>
+        {% else %}
+            <p>Employee records not found!!!</p>
+        {% endif %}
+    </body>
+</html>

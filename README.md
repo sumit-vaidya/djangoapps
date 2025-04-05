@@ -10,3 +10,13 @@
 10. Migrate your project to check if any errors **c:\users\hp\djangoapps\myproject1>python manage.py migrate**
 11. Run servers **c:\users\hp\djangoapps\myproject1>python manage.py runserver**
 12. Giving request in the browser **http://127.0.0.1:8080/demo**
+
+# Working with models(M) & Database
+13. To open shell prompt and connect to db
+    **c:\users\hp\djangoapps\myproject1>py manage.py shell**
+    **>> from django.db import connection**
+14. To make migration **c:\users\hp\djangoapps\myproject1>py manage.py makemigrations**
+15. To view sql **c:\users\hp\djangoapps\myproject1>py manage.py sqlmigrate ModelApp 0001_initial**
+16. To migrate **c:\users\hp\djangoapps\myproject1>py manage.py migrate**
+17. To create super user **c:\users\hp\djangoapps\myproject1>py manage.py createsuperuser**
+18. Login to admin portal **http://127.0.0.1:8080/admin**
